@@ -145,7 +145,7 @@
                 </div>
                 <div class="col-lg-4">
                     <p class="text-center">I have started to do photography in spring 2015, and I really like it. I’ve watched a lot of videos and tried new stuff with my DSLR. Now I wanted to share my work with you guys and I hope you’ll like my pictures. 
-                    <br>Thanks Elia</p>
+                    <br><br>Thanks Elia!</p>
                 </div>
             </div>
         </div>
@@ -233,10 +233,10 @@
                             </li>
                         </ul>
                     </div>
-                    <!--<div class="footer-col col-md-4">
+                    <div class="footer-col col-md-4">
                         <h3>About Freelancer</h3>
                         <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>

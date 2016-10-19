@@ -28,15 +28,13 @@ $texts = array($project1text, $project2text, $project3text, $project4text, $proj
 </head>
 
 <body id="page-top" class="index">
-    <div class="portfolio-modal" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-                   <a href="index.php#portfolio">
-        <div class="modal-content">
+    <div class="portfolio-modal" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">          
+        <div class="modal-content" onclick="location.href='index.php#portfolio';">
                 <div class="close-modal">
                     <div class="lr">
                     <div class="rl">
                 </div>
                 </div>
-                </a>
             </div>
             <div class="container">
                 <div class="row">
@@ -44,7 +42,58 @@ $texts = array($project1text, $project2text, $project3text, $project4text, $proj
                         <div class="modal-body">
                             <h2><?php echo $texts[$projectnr]['title'];?></h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="
+    margin-right: 10%;
+    margin-left: 10%;
+    max-height: 100vh;
+">
+ <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/title.jpg" class="img-responsive img-centered" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="Flower">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        <div>
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
                             <p><?php echo $texts[$projectnr]['text'];?></p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -81,6 +130,9 @@ $texts = array($project1text, $project2text, $project3text, $project4text, $proj
     -->
     <script src="js/freelancer.js"></script> 
 
+    <script type="javascript/text">
+
+    </script>
 </body>
 
 </html>
