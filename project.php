@@ -1,8 +1,11 @@
 <?php
-//TODO validation
-$projectnr = $_GET['project'] - 1;
+if($_GET['project'] > 0 && $_GET['project'] < 7){
+    $projectnr = $_GET['project'] - 1;
+} else {
+    $projectnr = 0;
+}
 
-$project1img = array("jksdf");
+$project1img = array("cabin.png", "cake.png", "safe.png");
 $project2img = array("jksf", "djfhsa");
 $project3img = array();
 $project4img = array();
@@ -24,7 +27,7 @@ $texts = array($project1text, $project2text, $project3text, $project4text, $proj
 <html lang="de">
 
 <head>
-    <?php include_once("includes/header.php");?>
+    <?php include_once("includes/header.html");?>
 </head>
 
 <body id="page-top" class="index">
@@ -54,29 +57,32 @@ $texts = array($project1text, $project2text, $project3text, $project4text, $proj
 ">
  <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
+   <?php $i = 0;
+    foreach($imagesPath[$projectnr] as $path){?>
+        <?php if ($i == 0){?>
+            <li data-target="#myCarousel" data-slide-to=<?php echo $i;?> class="active"></li>
+        <?php } else { ?>
+            <li data-target="#myCarousel" data-slide-to=<?php echo $i;?>></li>
+        <?php }   
+        $i = $i + 1;
+    } ?>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/title.jpg" class="img-responsive img-centered" alt="Chania">
-    </div>
-
-    <div class="item">
-      <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="Chania">
-    </div>
-
-    <div class="item">
-      <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="Flower">
-    </div>
-
-    <div class="item">
-      <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="Flower">
-    </div>
+    <?php $i = 0;
+    foreach($imagesPath[$projectnr] as $path){?>
+        <?php if ($i == 0){?>
+            <div class="item active">
+                <img src= <?php echo "img/portfolio/" . $path;?> class="img-responsive img-centered" alt="image">
+            </div>
+        <?php } else { ?>
+            <div class="item">
+                <img src= <?php echo "img/portfolio/" . $path;?> class="img-responsive img-centered" alt="image">
+            </div>
+        <?php }   
+        $i = $i + 1;
+     } ?>
   </div>
 
   <!-- Left and right controls -->
