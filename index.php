@@ -70,60 +70,60 @@
                     <a href="project.php?project=1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                               <h3>Street</h3>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/IMG_4562.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="project.php?project=2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Around the World</h3>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/IMG_3617.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="project.php?project=3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Zürich</h3>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/IMG_9675.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="project.php?project=4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Switzerland</h3>
                             </div>
                         </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/IMG_7933.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="project.php?project=5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Night</h3>
                             </div>
                         </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/IMG_9903.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="project.php?project=6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <h3>Black &amp; White</h3>
                             </div>
                         </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/IMG_3795.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -220,22 +220,23 @@
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="https://ch.linkedin.com/in/elia-perenzin-33b560b8" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a target="_blank" href="https://ch.linkedin.com/in/elia-perenzin-33b560b8" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="https://github.com/zperee" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                                <a target="_blank" href="https://github.com/zperee" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="https://instagram.com/eliaperenzin" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                                <a arget="_blank" href="https://instagram.com/eliaperenzin" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a href="https://flickr.com/photos/eliaperenzin" class="btn-social btn-outline"><i class="fa fa-fw fa-flickr"></i></a>
+                                <a arget="_blank" href="https://flickr.com/photos/eliaperenzin" class="btn-social btn-outline"><i class="fa fa-fw fa-flickr"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Copyright</h3>
+                        <p class="cc">b n d</p>
+                        <p>All Images by Elia Perenzin</p>
                     </div>
                 </div>
             </div>
@@ -244,7 +245,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; eliaperenzin.ch <?php echo date('Y');?>
+                        eliaperenzin.ch <?php echo date('Y');?>
                     </div>
                 </div>
             </div>

@@ -3,6 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ @font-face {
+  font-family: 'CC';
+  src: url('../font/cc-icons.ttf');
+}
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -507,4 +512,8 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
 
+}
+.cc{
+  font-family: 'CC';
+  font-size: 36px;
 }
