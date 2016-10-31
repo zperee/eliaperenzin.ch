@@ -48,7 +48,7 @@
                     <img class="img-responsive img-circle" width="250px" src="img/profile.png" alt="">
                     <div class="intro-text">
                         <span class="name">Elia Perenzin</span>
-                        <hr class="star-light">
+                        <hr class="line">
                         <span class="skills">Photography</span>
                     </div>
                 </div>
@@ -182,7 +182,7 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -197,7 +197,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                <button type="submit" class="btn btn-s btn-lg">Send</button>
                             </div>
                         </div>
                     </form>
@@ -245,7 +245,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        eliaperenzin.ch <?php echo date('Y');?>
+                       Copyright &copy; eliaperenzin.ch <?php echo date('Y');?>
                     </div>
                 </div>
             </div>
@@ -267,10 +267,10 @@
     <!-- Bootstrap Core JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- Contact Form JavaScript 
+    <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-    -->
+    
     <script src="js/freelancer.js"></script> 
 
 </body>
