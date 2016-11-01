@@ -245,7 +245,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                       Copyright &copy; eliaperenzin.ch <?php echo date('Y');?>
+                       <a href="impressum.php">Impressum</a> Copyright &copy; eliaperenzin.ch <?php echo date('Y');?>
                     </div>
                 </div>
             </div>
