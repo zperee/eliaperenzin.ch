@@ -83,7 +83,7 @@
                                 <h3>Around the World</h3>
                             </div>
                         </div>
-                        <img src="img/portfolio/IMG_3617.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/IMG_6009.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">

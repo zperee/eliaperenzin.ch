@@ -109,6 +109,19 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+
+@media (max-width: 768px){
+  header .background-img {
+    background-image: url("../img/title@1.jpg");
+  }
+}
+
+@media(min-width: 768px){
+  header .background-img {
+    background-image: url("../img/title@2.jpg");
+  }
+}
+
 @media (min-width: 768px) {
   header .background-img {
     padding-top: 200px;
@@ -297,6 +310,10 @@ section.success {
   -moz-transition: top 0.3s ease,opacity 0.3s ease;
   -ms-transition: top 0.3s ease,opacity 0.3s ease;
   transition: top 0.3s ease,opacity 0.3s ease;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
@@ -495,7 +512,7 @@ fieldset[disabled] .btn-s.active {
   opacity: 0.3;
 }
 .portfolio-modal .close-modal .lr {
-  height: 75px;
+  height: 50px;
   width: 1px;
   margin-left: 35px;
   background-color: #2C3E50;
@@ -507,7 +524,7 @@ fieldset[disabled] .btn-s.active {
   z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
+  height: 50px;
   width: 1px;
   background-color: #2C3E50;
   transform: rotate(90deg);

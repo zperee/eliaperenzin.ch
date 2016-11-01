@@ -7,7 +7,7 @@
 
 <body id="page-top" class="index">
 	<div class="row" style="background-color: #2C3E50; color: white">
-		<div class="col-md-8 col-md-offset-2">
+		<div class="col-md-10 col-md-offset-1">
 			<div class="impressum text-center">
 				<br>
 				<h2>Kontaktadresse</h2>
