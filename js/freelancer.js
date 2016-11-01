@@ -42,3 +42,15 @@
     });
 
 })(jQuery); // End of use strict
+
+
+$("body").keydown(function(e) {
+		//Left Key
+		if (e.keyCode == 37) {
+			$("#myCarousel").carousel("prev");
+		//Right Key
+		} else if (e.keyCode == 39) {
+			$("#myCarousel").carousel("next");
+		}
+	});
+
