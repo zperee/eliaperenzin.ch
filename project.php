@@ -102,16 +102,8 @@ $texts = array($project1text, $project2text, $project3text, $project4text, $proj
                         <div class="col-lg-8 col-lg-offset-2">
                             <p><?php echo $texts[$projectnr]['text'];?></p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Photographer:
+                                    <strong><a target=_blank" href="https://instagram.com/eliaperenzin">Elia Perenzin</a>
                                     </strong>
                                 </li>
                             </ul>
