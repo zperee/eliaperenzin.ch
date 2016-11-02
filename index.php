@@ -144,7 +144,7 @@
                     <p class="text-center">My name is Elia Perenzin and I’m from Switzerland. Currently I’m doing an apprenticeship as an application developer in an international IT company. In my free time I love to take pictures do sports or be together with my friends. Unfortunately I don’t have a lot of time for all these stuff, because of school and work.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p class="text-center">I have started to do photography in spring 2015, and I really like it. I’ve watched a lot of videos and tried new stuff with my DSLR. Now I wanted to share my work with you guys and I hope you’ll like my pictures. 
+                    <p class="text-center">I have started to do photography in spring 2015, and I really like it. I’ve watched a lot of videos and tried new stuff with my DSLR. Now I want to share my work with you guys and I hope you’ll like my pictures. 
                     <br><br>Thanks Elia!</p>
                 </div>
             </div>
@@ -226,10 +226,10 @@
                                 <a target="_blank" href="https://github.com/zperee" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a arget="_blank" href="https://instagram.com/eliaperenzin" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                                <a target="_blank" href="https://instagram.com/eliaperenzin" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a arget="_blank" href="https://flickr.com/photos/eliaperenzin" class="btn-social btn-outline"><i class="fa fa-fw fa-flickr"></i></a>
+                                <a target="_blank" href="https://flickr.com/photos/eliaperenzin" class="btn-social btn-outline"><i class="fa fa-fw fa-flickr"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -262,7 +262,7 @@
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
     
     <!-- Bootstrap Core JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

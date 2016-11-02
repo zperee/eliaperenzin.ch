@@ -18,7 +18,7 @@ $project2text = array('title' => "Around the World", 'text' => "<i>&bdquo;Travel
 $project3text = array('title' => "Z&uuml;rich", 'text' => "Pictures from my favorite City. I love Z&uuml;rich, I think it's one of the most beautiful cities in the world. <a target='_blank' href='https://www.zuerich.com/en'>Zurich.ch</a>");
 $project4text = array('title' => "Switzerland", 'text' => "Little Switzerland is for me one of the most beautiful countries in the world. It's nature is so versatile, from the highest mountains to the most beautiful cities, you can find everything in that little country. <a target='_blank' href='http://grandtour.myswitzerland.com/en/'>Switzerland Grand Tour</a>");
 $project5text = array('title' => "Night", 'text' => "<i>&bdquo;I often think that the night is more alive and more richly colored than the day. - Vincent Van Gogh&ldquo;</i>");
-$project6text = array('title' => "Black &amp; White", 'text' => "<i>&bdquo;I don't see the world completely in black and white. Sometimes I do.&ldquo;</i> - Benicio Del Toro");
+$project6text = array('title' => "Black &amp; White", 'text' => "<i>&bdquo;When you photograph people in color, you photograph their clothes. But when you photograph people in Black and white, you photograph their souls!&ldquo;</i> - Ted Grant");
 $texts = array($project1text, $project2text, $project3text, $project4text, $project5text, $project6text);
 
 ?>
